@@ -14,7 +14,6 @@ namespace DotNetBasicConsoleApp
         static void StartFunc()
         {
             var sw = Stopwatch.StartNew();
-            sw.Reset();
             var ss = new SortedSet<int>(Enumerable.Repeat(42, 400_000));
             Console.WriteLine(sw.Elapsed);
 
