@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using DotNetCoreClassLibrary;
 
 namespace DotNetCoreConsoleApp
 {
@@ -9,7 +10,7 @@ namespace DotNetCoreConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Get(512));
+            Console.WriteLine(BaseEntity.Get(512));
 
             var sw = Stopwatch.StartNew();
             while (true)
@@ -48,6 +49,6 @@ namespace DotNetCoreConsoleApp
             }
         }
 
-        public static int Get(int number) => Newtonsoft.Json.JsonConvert.DeserializeObject<int>($"{1000 + number}");
+
     }
 }

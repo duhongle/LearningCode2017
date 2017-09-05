@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetBasicConsoleApp", "Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetBasicWindowsFormsApp", "DotNetBasicTutorials\DotNetBasicWindowsFormsApp\DotNetBasicWindowsFormsApp.csproj", "{3BDC644B-FBF5-4894-B920-D9EC86578C81}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreClassLibrary", "DotNetCoreTutorials\DotNetCoreClassLibrary\DotNetCoreClassLibrary.csproj", "{CCE9EB3A-A97E-4F06-8043-CBF61218DD45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{3BDC644B-FBF5-4894-B920-D9EC86578C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BDC644B-FBF5-4894-B920-D9EC86578C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BDC644B-FBF5-4894-B920-D9EC86578C81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE9EB3A-A97E-4F06-8043-CBF61218DD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE9EB3A-A97E-4F06-8043-CBF61218DD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE9EB3A-A97E-4F06-8043-CBF61218DD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE9EB3A-A97E-4F06-8043-CBF61218DD45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{09C621A1-0505-46F0-823D-C7A19B560F49} = {DCA47E65-2945-4C90-96A7-92A1A64DEF7D}
 		{6952AF56-51A8-4AEA-8E4B-38A16EBCF22C} = {C4034306-C1A9-45B4-8F11-BAB742FE88FA}
 		{3BDC644B-FBF5-4894-B920-D9EC86578C81} = {C4034306-C1A9-45B4-8F11-BAB742FE88FA}
+		{CCE9EB3A-A97E-4F06-8043-CBF61218DD45} = {DCA47E65-2945-4C90-96A7-92A1A64DEF7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {22C33E62-C118-4B2E-846A-5F2BEEA59AAE}
