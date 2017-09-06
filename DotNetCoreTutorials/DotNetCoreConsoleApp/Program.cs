@@ -10,7 +10,12 @@ namespace DotNetCoreConsoleApp
     {
         static void Main(string[] args)
         {
+            var service = InvokeService.Proxy<IUserService>();
+            Console.WriteLine($"当前用户名：{service.GetCurrentsUserName()}");
+
             Console.WriteLine(BaseEntity.Get(512));
+            Console.WriteLine(ConfigurationManager.AppSettings["Name"]);
+            Console.ReadLine();
 
             var sw = Stopwatch.StartNew();
             while (true)
@@ -48,7 +53,5 @@ namespace DotNetCoreConsoleApp
                 Console.WriteLine(sw.Elapsed);
             }
         }
-
-
     }
 }

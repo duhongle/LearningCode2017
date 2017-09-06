@@ -9,10 +9,13 @@ namespace DotNetBasicConsoleApp
 {
     class Program
     {
-        static void Main(string[] args) => WriterFunc();
+        static void Main(string[] args) => StartFunc();
 
         static void StartFunc()
         {
+            var service = InvokeService.Proxy<IUserService>();
+            Console.WriteLine($"当前用户名：{service.GetCurrentsUserName()}");
+
             var sw = Stopwatch.StartNew();
             var ss = new SortedSet<int>(Enumerable.Repeat(42, 400_000));
             Console.WriteLine(sw.Elapsed);
