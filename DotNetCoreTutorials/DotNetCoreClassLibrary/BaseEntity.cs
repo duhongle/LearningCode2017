@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DotNetCoreClassLibrary
+﻿namespace DotNetCoreClassLibrary
 {
     public class BaseEntity
     {
